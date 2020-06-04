@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SqlServerPersistence.Assistence;
 
 namespace Motel
 {
@@ -14,9 +15,10 @@ namespace Motel
         [STAThread]
         static void Main()
         {
+            ClsCache.Init(Connection.ConnectionString);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMain());
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EntityCache")]
+[assembly: AssemblyTitle("SharedEntityCache")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EntityCache")]
+[assembly: AssemblyProduct("SharedEntityCache")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("18aef5b9-88b6-47f1-8aec-9c6982a61108")]
+[assembly: Guid("134ffd34-ba53-4c8e-a2eb-5c43b59da601")]
 
 // Version information for an assembly consists of the following four values:
 //
